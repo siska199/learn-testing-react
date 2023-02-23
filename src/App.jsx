@@ -9,10 +9,10 @@ function App() {
   return (
     <main className="w-[50rem] min-h-[20rem] max-h-[30rem] border mx-auto shadow-lg p-4 space-y-4 ">
       <Navbar/>
-      <Routes>
-          <Route path={"/"} element={<Home/>}/>
-          <Route path={"/users"} element={<Users/>}/>
-      </Routes>
+        <Routes>
+            <Route path={"/"} element={<Home/>}/>
+            <Route path={"/users"} element={<Users/>}/>
+        </Routes>
       <Footer/>
     </main>
   );
