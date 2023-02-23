@@ -10,7 +10,7 @@ const Users = () => {
   console.log("listUser", listUser)
   useEffect(()=>{
     dispatch(fetchUsers())
-  },[])
+  },[dispatch])
   return (
     <section className='space-y-4 max-h-[20rem] overflow-y-scroll'>
       <button onClick={()=>navigate("/")} className='bg-green-700 text-white rounded-md min-w-[10rem] py-2'>Back to Home</button>
